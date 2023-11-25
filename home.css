@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+#homepage{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://miro.medium.com/v2/resize:fit:1400/1*NUW9Vs7tJTralD7VJHQE8Q.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+#heading{
+    height: 50%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: transparent;
+}
+#heading H1{
+    color:whitesmoke;
+    font-size: 6rem;
+    font-family: 'Creepster', cursive;
+    font-weight: 500;
+
+}
+#signin h2{
+    font-family: 'Creepster', cursive;
+    color:whitesmoke;
+    font-size: 4 rem;
+    text-align: center;
+    font-weight: 300;
+}
+form {
+    max-width: 500px;
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    color: whitesmoke;
+    font-family: 'Creepster', cursive;
+    display:flex;
+    flex-direction:column ;
+    align-items: center;
+    
+  }
+  
+  label,
+  input[type="text"],
+  input[type="email"],
+  input[type="submit"] {
+    width: 40%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color:red;
+    color:whitesmoke;
+    cursor: pointer;
+    align-self: center;
+    justify-self: center;
+    font-family: 'Creepster', cursive;
+    align-self: stretch;
+  }
+#heading h2{
+    font-family: 'Creepster', cursive;
+    font-size: 1.5rem;
+    color:whitesmoke;
+    font-weight: 200;
+}  
+
+
+input[type="submit"]:hover{
+    background-color: white;
+    color:red;
+    font-size:1rem
+}
+#heading H1:hover{
+    color:red;
+    font-size: 8rem;
+}
+#signin h2:hover{
+    color:red;
+    font-size: 5rem;
+}
+form:hover{
+    color:red;
+    font-size: 1.5rem;
+}

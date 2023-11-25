@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+#gamecontainer{
+    height: 100vh;
+    width: 100vw;
+    background-image:url("https://helonational.com/wp-content/uploads/2022/08/Happy-Halloween-Funniest-GIFs.gif") ;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Creepster', cursive;
+    font-weight: 300;
+    color: whitesmoke;
+}
+
+#gamecontainer h1{
+    font: 3rem;
+    color:whitesmoke;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+
+
+}
+#gamecontainer h2{
+    font: 3rem;
+    color:whitesmoke;
+    align-items: center;
+    justify-content:center;
+    text-align: center;
+}
+#gamecontainer button{
+    height: 6vh;
+    width: 15vw;
+    font-family: 'Creepster', cursive;
+    background-color: black;
+    color:whitesmoke;
+
+
+
+}
+#gamecontainer h1:hover{
+    font-size: 3rem;
+    color:black;
+}
+#gamecontainer h2:hover{
+    font-size:3rem;
+    color:black;
+}
+
+#gamecontainer button:hover{
+    color:black;
+    background-color: whitesmoke;
+}
+
